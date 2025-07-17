@@ -3,14 +3,13 @@ using UnityEngine.UI;
 
 public class HealthBarSliderController : MonoBehaviour
 {
-    [Header("Health Settings")]
     public float maxHealth = 100f;
     private float currentHealth;
 
-    [Header("UI Components")]
+    
     public Slider healthSlider;
 
-    [Header("Color Gradient")]
+   
     public Color fullHealthColor = Color.green;
     public Color lowHealthColor = Color.red;
 
